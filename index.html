@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href='styles.css' type=text/css>
+    <title>Dog API-3</title>
+</head>
+<body>
+    <main>
+        <h1>Retrieve Images of Dogs!</h1>
+        <form>
+            <fieldset>
+                <input type='text' name='quantity' min='1' max='50' value='Your Breed Here!' id='userNum'>
+                <input type='submit' class='submit' value='FETCH!'>
+            </fieldset>
+        </form>
+        <!-- <section class='results hidden'>
+            <h3>Look at what was fetched!</h3>
+        </section> -->
+        <div class='data'></div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
