@@ -23,7 +23,7 @@ function displayResults(responseJson) {
         console.log(responseJson.message);
         $('.data').append(`<p>The breed that you selected can not be located. Please try another breed :)</p>`)
     } else {
-        $('.data').append(`<img src="${responseJson.message}" alt='Random Dog Breed' class='img-results'`)
+        $('.data').append(`<img src="${responseJson.message}" alt='Random Dog Breed' class='img-results'>`)
     }
 }
 
